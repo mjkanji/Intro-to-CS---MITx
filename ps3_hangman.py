@@ -6,7 +6,7 @@
 
 import random
 
-WORDLIST_FILENAME = "D:\Second 1D Account\OneDrive - leverage innovative users\Coding Tutorials\Introduction to Programming using Python\Problem Sets\Problem Set 3\words.txt"
+WORDLIST_FILENAME = "words.txt"
 
 def loadWords():
     """
