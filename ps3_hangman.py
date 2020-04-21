@@ -2,10 +2,7 @@
 #
 
 # -----------------------------------
-# Helper code
-# You don't need to understand this helper code,
-# but you will have to know how to use the functions
-# (so be sure to read the docstrings!)
+
 
 import random
 
@@ -139,10 +136,6 @@ def hangman(secretWord):
         if guesses_remaining == 0:
             print("Sorry, you ran out of guesses. The word was ", secretWord)
 
-
-# When you've completed your hangman function, uncomment these two lines
-# and run this file to test! (hint: you might want to pick your own
-# secretWord while you're testing)
 #
 # secretWord = chooseWord(wordlist).lower()
 secretWord = "c"
